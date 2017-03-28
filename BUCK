@@ -1,7 +1,7 @@
 include_defs('//BUCKAROO_DEPS')
 
 prebuilt_cxx_library(
-  name = 'boost-property-map', 
+  name = 'property-map', 
   header_only = True,
   header_namespace = 'boost/property_map',
   exported_headers = subdir_glob([
